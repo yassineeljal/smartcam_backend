@@ -1,0 +1,34 @@
+{
+  "name": "smartcam-backend",
+  "version": "1.0.0",
+  "description": "API backend pour système de reconnaissance faciale SmartCam avec ESP32 + Raspberry Pi",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/seeds/seed.js"
+  },
+  "keywords": [
+    "smartcam",
+    "facial-recognition",
+    "iot",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "mongoose": "^8.10.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
