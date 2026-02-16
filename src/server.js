@@ -65,3 +65,5 @@ start().catch((err) => {
   console.error("Impossible de demarrer le serveur :", err);
   process.exit(1);
 });
+
+module.exports = app;
